@@ -1,0 +1,4 @@
+com.vulnscanner.sample.test.samplehost-androidTest-0 C:\AndroidVulnScanner\AndroidVulnScanner\samplehost\build\generated\res\resValues\androidTest\debug
+com.vulnscanner.sample.test.samplehost-mergeDebugAndroidTestResources-1 C:\AndroidVulnScanner\AndroidVulnScanner\samplehost\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vulnscanner.sample.test.samplehost-mergeDebugAndroidTestResources-2 C:\AndroidVulnScanner\AndroidVulnScanner\samplehost\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vulnscanner.sample.test.samplehost-debugAndroidTest-3 C:\AndroidVulnScanner\AndroidVulnScanner\samplehost\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

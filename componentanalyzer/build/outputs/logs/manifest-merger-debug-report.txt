@@ -1,0 +1,24 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:2:11-69
+queries
+ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:10:5-14:15
+intent#action:name:android.intent.action.MAIN
+ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:11:9-13:18
+action#android.intent.action.MAIN
+ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:12:13-65
+	android:name
+		ADDED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:12:21-62
+uses-sdk
+INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml

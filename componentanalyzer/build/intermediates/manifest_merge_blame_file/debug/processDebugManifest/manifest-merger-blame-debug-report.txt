@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vulnscanner.analyzer" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <!--
+8        Android 11+ (API 30+) Package Visibility Fix:
+9        Without this <queries> block, getInstalledApplications() returns only system apps.
+10        We declare intent to query all apps with MAIN action so PackageManager reveals them.
+11    -->
+12
+13    <queries>
+13-->C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:10:5-14:15
+14        <intent>
+14-->C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:11:9-13:18
+15            <action android:name="android.intent.action.MAIN" />
+15-->C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:12:13-65
+15-->C:\AndroidVulnScanner\AndroidVulnScanner\componentanalyzer\src\main\AndroidManifest.xml:12:21-62
+16        </intent>
+17    </queries>
+18
+19</manifest>

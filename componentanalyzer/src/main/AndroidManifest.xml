@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Android 11+ (API 30+) Package Visibility Fix:
+        Without this <queries> block, getInstalledApplications() returns only system apps.
+        We declare intent to query all apps with MAIN action so PackageManager reveals them.
+    -->
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+
+</manifest>
